@@ -18,7 +18,7 @@ This package runs on python3.7 or later with the following packages:
 * `tqdm`
 * `Cuda toolkit`
 
-For cloning ultralytics python yolov3 use git clone into your own custom workspace:
+For cloning [ultralytics python yolov3](https://github.com/ultralytics/yolov3) use git clone into your own custom workspace:
 
 ```bash
 git clone https://github.com/ultralytics/yolov3.git
@@ -32,10 +32,27 @@ git clone https://github.com/RoboHubEindhoven/YOLO_Object_Detection.git
 
 ## Usage
 
+### Execute
+
 To run the program execute the following command in a terminal:
 
 ```bash
 python3 test.py
 ```
+
+To change the Config file which is used change the filepath in `defaults_dicts` to the `.cfg` file that you want to use.
+
+
+### Pretrained Weights
+Below are the links to the pretrained weights:
+
+* Darknet `*.weights` format: https://pjreddie.com/media/files/yolov3.weights
+* PyTorch `*.pt` format: https://drive.google.com/drive/folders/1uxgUBemJVw9wZsdpboYbzUN4bcRhsuAI
+
+
+# Authors
+
+**Mike van Lieshout** - in name of RoboHub Eindhoven - [RoboHub Eindhoven website](https://www.robohub-eindhoven.nl)
+
 
 
