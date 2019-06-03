@@ -1,4 +1,4 @@
-# YOLO Object detection RoboHub Eindhoven
+# YOLO Object detection 
 
 This is a repository for the YOLO object detection for the Robocup@work competition that @RoboHubEindhoven participates in. This repository consists of the [ultralytics python yolov3](https://github.com/ultralytics/yolov3) with some custom adjustments.
 
@@ -10,13 +10,15 @@ For this project ubuntu 16.04 is used.
 
 ### Prerequisites
 
-This package runs on python3.7 or later with the following packages:
+This package runs on python3.7 or later with the following `pip3 install -U -r requirements.txt` packages:
 
 * `numpy`
 * `torch >= 1.1.0`
 * `opencv-python`
 * `tqdm`
 * `Cuda toolkit`
+* `matplotlib`
+* `pycocotools`
 
 For cloning [ultralytics python yolov3](https://github.com/ultralytics/yolov3) use git clone into your own custom workspace:
 
@@ -40,7 +42,10 @@ To run the program execute the following command in a terminal:
 python3 test.py
 ```
 
-To change the Config file which is used change the filepath in `defaults_dicts` to the `.cfg` file that you want to use.
+### Change file paths
+
+To change the Config file which is used change the filepath in `defaults_dicts` to the `.cfg` file that you want to use. This is the same for `.data` and `.weights` files.
+Furthermore you can change the `Confidence threshold (conf_thresh)` value and the `Non-maximum supression threshold (nms_thresh)`
 
 
 ### Pretrained Weights
@@ -50,9 +55,7 @@ Below are the links to the pretrained weights:
 * PyTorch `*.pt` format: https://drive.google.com/drive/folders/1uxgUBemJVw9wZsdpboYbzUN4bcRhsuAI
 
 
-# Authors
+## Authors
 
 **Mike van Lieshout** - in name of RoboHub Eindhoven - [RoboHub Eindhoven website](https://www.robohub-eindhoven.nl)
-
-
 
