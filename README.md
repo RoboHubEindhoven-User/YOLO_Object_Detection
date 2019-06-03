@@ -24,6 +24,12 @@ For cloning ultralytics python yolov3 use git clone into your own custom workspa
 git clone https://github.com/ultralytics/yolov3.git
 ```
 
+For cloning this custom version based on the [ultralytics](https://github.com/ultralytics/yolov3) version use:
+
+```bash
+git clone https://github.com/RoboHubEindhoven/YOLO_Object_Detection.git
+```
+
 ## Usage
 
 To run the program execute the following command in a terminal:
