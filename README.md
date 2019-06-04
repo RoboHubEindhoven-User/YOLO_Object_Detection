@@ -2,11 +2,17 @@
 
 This is a repository for the YOLO object detection for the Robocup@work competition that RoboHubEindhoven participates in. This repository consists of the [ultralytics python yolov3](https://github.com/ultralytics/yolov3) with some custom adjustments.
 
-If you want to learn more of how the vision systems work, please check out our wiki.
+If you want to learn more of how the vision systems work, please check out our [wiki](https://github.com/RoboHubEindhoven/YOLO_Object_Detection/wiki).
+
+Below are some of the results on a custom trained database with the Robocup@work objects:
+
+![1](https://user-images.githubusercontent.com/39261806/58866927-d4df8180-86b9-11e9-82fa-778f1cc614f9.jpeg)
+
+![index](https://user-images.githubusercontent.com/39261806/58866982-ede83280-86b9-11e9-80dd-680a19e43adf.jpeg)
 
 ## Getting started
 
-For this project ubuntu 16.04 is used with [CUDA Toolkit 10.1](https://developer.nvidia.com/cuda-downloads).
+For this project ubuntu 16.04 LTS is used with [CUDA Toolkit 10.1](https://developer.nvidia.com/cuda-downloads).
 
 ### Prerequisites
 
