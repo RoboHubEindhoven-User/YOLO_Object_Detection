@@ -2,7 +2,7 @@
 
 This is a repository for the YOLO object detection for the Robocup@work competition that RoboHubEindhoven participates in. This repository consists of the [ultralytics python yolov3](https://github.com/ultralytics/yolov3) with some custom adjustments.
 
-If you want to learn more of how the vision systems work, please check out our [wiki](https://github.com/RoboHubEindhoven/YOLO_Object_Detection/wiki).
+If you want to learn more of how the YOLO object detection works, please check out our [wiki](https://github.com/RoboHubEindhoven/YOLO_Object_Detection/wiki).
 
 **Below are some of the results on a custom trained database with the Robocup@work objects:**
 
