@@ -4,7 +4,7 @@ This is a repository for the YOLO object detection for the Robocup@work competit
 
 If you want to learn more of how the vision systems work, please check out our [wiki](https://github.com/RoboHubEindhoven/YOLO_Object_Detection/wiki).
 
-Below are some of the results on a custom trained database with the Robocup@work objects:
+**Below are some of the results on a custom trained database with the Robocup@work objects:**
 
 ![1](https://user-images.githubusercontent.com/39261806/58866927-d4df8180-86b9-11e9-82fa-778f1cc614f9.jpeg)
 
@@ -59,6 +59,14 @@ python3 test.py
 
 To change the Config file which is used change the filepath in `defaults_dicts` in the `yolo.py` file to the `.cfg` file that you want to use. This is the same for the `.data` and `.weights` files.
 Furthermore you can change the Confidence threshold `(conf_thresh)` value and the Non-maximum supression threshold `(nms_thresh)`.
+
+### Troubleshoot
+
+It might occure that the error occures that it cannot find opencv installed for python3, this might be due to ROS or other installations. When this happens run in the yolov3_custom folder the following command and retry after:
+
+```bash
+source envpy3
+```
 
 ### Pretrained Weights
 Below are the links to the pretrained weights:
