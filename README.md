@@ -47,20 +47,18 @@ To run the program execute the following command in a terminal:
 python3 test.py
 ```
 
-**note**: You might need to change the `cv2.VideoCapture(0)` to your desired camera input in the `datasets.py` file line 98.
+**note**: You might need to change the `cv2.VideoCapture(0)` to your desired camera input in the `test.py` file.
 
 ### Change file paths
 
-To change the Config file which is used change the filepath in `defaults_dicts` in the `yolo.py` file to the `.cfg` file that you want to use. This is the same for `.data` and `.weights` files.
-Furthermore you can change the Confidence threshold `(conf_thresh)` value and the Non-maximum supression threshold `(nms_thresh)`
-
+To change the Config file which is used change the filepath in `defaults_dicts` in the `yolo.py` file to the `.cfg` file that you want to use. This is the same for the `.data` and `.weights` files.
+Furthermore you can change the Confidence threshold `(conf_thresh)` value and the Non-maximum supression threshold `(nms_thresh)`.
 
 ### Pretrained Weights
 Below are the links to the pretrained weights:
 
 * Darknet `*.weights` format: https://pjreddie.com/media/files/yolov3.weights
 * PyTorch `*.pt` format: https://drive.google.com/drive/folders/1uxgUBemJVw9wZsdpboYbzUN4bcRhsuAI
-
 
 ## Authors
 
